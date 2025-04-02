@@ -1,0 +1,36 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Model files
+bert_model/
+*.safetensors
+*.bin
+
+# Dataset
+data/*.csv
+
+# Ignore all .txt and .bz2 files in data/7/
+data/7/*.txt
+data/7/*.bz2
+
+
+# MongoDB local data
+data/db/
+*.bson
+*.wt
+mongod.lock
+storage.bson
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python environments
+.env
+.venv
+env/
+venv/
+
+# Streamlit cache
+.streamlit/
